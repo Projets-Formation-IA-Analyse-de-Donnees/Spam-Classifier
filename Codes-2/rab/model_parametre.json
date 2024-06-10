@@ -1,0 +1,711 @@
+[
+	{
+		"model" : "BernoulliNB" ,
+		"parametre" : 
+		[
+			{
+				"name" : "alpha",
+				"describe" : "float or array-like of shape (n_features,), default=1.0",
+				"type" : "float or array-like",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "force_alpha",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "binarize",
+				"describe" : "float or None, default=0.0",
+				"type" : "float",
+				"default_val" : 0.0
+			},
+			{
+				"name" : "fit_prior",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "class_prior",
+				"describe" : "array-like of shape (n_classes,), default=None",
+				"type" : "array-like",
+				"default_val" : "NULL"
+			}
+		]
+	},
+	{
+		"model" : "CategoricalNB" ,
+		"parametre" : 
+		[
+			{
+				"name" : "alpha",
+				"describe" : "float or array-like of shape (n_features,), default=1.0",
+				"type" : "float or array-like",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "force_alpha",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "fit_prior",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "class_prior",
+				"describe" : "array-like of shape (n_classes,), default=None",
+				"type" : "array-like",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "min_categories",
+				"describe" : "int or array-like of shape (n_features,), default=None",
+				"type" : "int or array-like",
+				"default_val" : "NULL"
+			}
+		]
+	},
+	{
+		"model" : "ComplementNB" ,
+		"parametre" : 
+		[
+			{
+				"name" : "alpha",
+				"describe" : "float or array-like of shape (n_features,), default=1.0",
+				"type" : "float or array-like",
+				"default_val" : 1.0
+
+			},
+			{
+				"name" : "force_alpha",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "fit_prior",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "class_prior",
+				"describe" : "array-like of shape (n_classes,), default=None",
+				"type" : "array-like",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "norm",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			}
+		]
+	},
+	{
+		"model" : "GaussianNB" ,
+		"parametre" : 
+		[
+			{
+				"name" : "priors",
+				"describe" : "array-like of shape (n_classes,), default=None",
+				"type" : "array-like",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "var_smoothing",
+				"describe" : "float, default=0.000000001",
+				"type" : "float",
+				"default_val" : 0.000000001
+			}
+		]
+	},
+	{
+		"model" : "MultinomialNB" ,
+		"parametre" : 
+		[
+			{
+				"name" : "alpha",
+				"describe" : "float or array-like of shape (n_features,), default=1.0",
+				"type" : "float or array-like",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "force_alpha",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "fit_prior",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "class_prior",
+				"describe" : "array-like of shape (n_classes,), default=None",
+				"type" : "array-like",
+				"default_val" : "NULL"
+			}
+		]
+	},
+	{
+		"model" : "SVC" ,
+		"parametre" : 
+		[
+			{
+				"name" : "C",
+				"describe" : "float, default=1.0",
+				"type" : "float",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "kernel",
+				"describe" : "{'linear', 'poly', 'rbf', 'sigmoid', 'precomputed'} or callable, default='rbf'",
+				"type" : "str or callable",
+				"default_val" : "rbf"
+			},
+			{
+				"name" : "degree",
+				"describe" : "int, default=3",
+				"type" : "int",
+				"default_val" : 3
+			},
+			{
+				"name" : "gamma",
+				"describe" : "{'scale', 'auto'} or float, default='scale'",
+				"type" : "float or str",
+				"default_val" : "scale"
+			},
+			{
+				"name" : "coef0",
+				"describe" : "float, default=0.0",
+				"type" : "float",
+				"default_val" : 0.0
+			},
+			{
+				"name" : "shrinking",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "probability",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "tol",
+				"describe" : "float, default=0.001",
+				"type" : "float",
+				"default_val" : 0.001
+			},
+			{
+				"name" : "cache_size",
+				"describe" : "float, default=200",
+				"type" : "float",
+				"default_val" : 200
+			},
+			{
+				"name" : "class_weight",
+				"describe" : "dict or 'balanced', default=None",
+				"type" : "dict or str",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "verbose",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "max_iter",
+				"describe" : "int, default=-1",
+				"type" : "int",
+				"default_val" : -1
+			},
+			{
+				"name" : "decision_function_shape",
+				"describe" : "{'ovo', 'ovr'}, default='ovr'",
+				"type" : "str",
+				"default_val" : "ovr"
+			},
+			{
+				"name" : "break_ties",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "random_state",
+				"describe" : "int, RandomState instance or None, default=None",
+				"type" : "int",
+				"default_val" : "NULL"
+			}
+		]
+	},
+	{
+		"model" : "SVR" ,
+		"parametre" : 
+		[
+			{
+				"name" : "kernel",
+				"describe" : "{'linear', 'poly', 'rbf', 'sigmoid', 'precomputed'} or callable, default='rbf'",
+				"type" : "str or callable",
+				"default_val" : "rbf"
+			},
+			{
+				"name" : "degree",
+				"describe" : "int, default=3",
+				"type" : "int",
+				"default_val" : 3
+			},
+			{
+				"name" : "gamma",
+				"describe" : "{'scale', 'auto'} or float, default='scale'",
+				"type" : "float or str",
+				"default_val" : "scale"
+			},
+			{
+				"name" : "coef0",
+				"describe" : "float, default=0.0",
+				"type" : "float",
+				"default_val" : 0.0
+			},
+			{
+				"name" : "tol",
+				"describe" : "float, default=0.001",
+				"type" : "float",
+				"default_val" : 0.001
+			},
+			{
+				"name" : "C",
+				"describe" : "float, default=1.0",
+				"type" : "float",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "epsilon",
+				"describe" : "float, default=0.1",
+				"type" : "float",
+				"default_val" : 0.1
+			},
+			{
+				"name" : "shrinking",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "cache_size",
+				"describe" : "float, default=200",
+				"type" : "float",
+				"default_val" : 200
+			},
+			{
+				"name" : "verbose",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "max_iter",
+				"describe" : "int, default=-1",
+				"type" : "int",
+				"default_val" : -1
+			}
+		]
+	},
+	{
+		"model" : "LinearSVC" ,
+		"parametre" : 
+		[
+			{
+				"name" : "penalty" ,
+				"describe" : "{'l1', 'l2'}, default='l2'",
+				"type" : "str",
+				"default_val" : "l2"
+			},
+			{
+				"name" : "loss",
+				"describe" : "{'hinge', 'squared_hinge'}, default='squared_hinge'",
+				"type" : "str",
+				"default_val" : "squared_hinge"
+			},
+			{
+				"name" : "dual",
+				"describe" : "“auto” or bool, default=True",
+				"type" : "bool or str",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "tol", 
+				"describe" : "float, default=0.0001",
+				"type" : "float",
+				"default_val" : 0.0001
+			},
+			{
+				"name" : "C",
+				"describe" : "float, default=1.0",
+				"type" : "float",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "multi_class",
+				"describe" : "{'ovr', 'crammer_singer'}, default='ovr'",
+				"type" : "str",
+				"default_val" : "ovr"
+			},
+			{
+				"name" : "fit_intercept",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "intercept_scaling",
+				"describe" : "float, default=1.0",
+				"type" : "float",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "class_weight",
+				"describe" : "dict or 'balanced', default=None",
+				"type" : "dict or str",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "verbose",
+				"describe" : "int, default=0",
+				"type" : "int",
+				"default_val" : 0
+			},
+			{
+				"name" : "random_state",
+				"describe" : "int, RandomState instance or None, default=None",
+				"type" : "int",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "max_iter",
+				"describe" : "int, default=1000",
+				"type" : "int",
+				"default_val" : 1000
+			}
+		]
+	},
+	{
+		"model" : "LinearSVR" ,
+		"parametre" : 
+		[
+			{
+				"name" : "epsilon" ,
+				"describe" : "float, default=0.0",
+				"type" : "float",
+				"default_val" : 0.0
+			},
+			{
+				"name" : "tol", 
+				"describe" : "float, default=0.0001",
+				"type" : "float",
+				"default_val" : 0.0001
+			},
+			{
+				"name" : "C",
+				"describe" : "float, default=1.0",
+				"type" : "float",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "loss",
+				"describe" : "{'hinge', 'squared_hinge'}, default='squared_hinge'",
+				"type" : "str",
+				"default_val" : "squared_hinge"
+			},
+			{
+				"name" : "fit_intercept",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "intercept_scaling",
+				"describe" : "float, default=1.0",
+				"type" : "float",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "dual",
+				"describe" : "“auto” or bool, default=True",
+				"type" : "bool or str",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "verbose",
+				"describe" : "int, default=0",
+				"type" : "int",
+				"default_val" : 0
+			},
+			{
+				"name" : "random_state",
+				"describe" : "int, RandomState instance or None, default=None",
+				"type" : "int",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "max_iter",
+				"describe" : "int, default=1000",
+				"type" : "int",
+				"default_val" : 1000
+			}
+		]
+	},
+	{
+		"model" : "NuSVC" ,
+		"parametre" : 
+		[
+			{
+				"name" : "nu",
+				"describe" : "float, default=0.5",
+				"type" : "float",
+				"default_val" : 0.5
+			},
+			{
+				"name" : "kernel",
+				"describe" : "{'linear', 'poly', 'rbf', 'sigmoid', 'precomputed'} or callable, default='rbf'",
+				"type" : "str or callable",
+				"default_val" : "rbf"
+			},
+			{
+				"name" : "degree",
+				"describe" : "int, default=3",
+				"type" : "int",
+				"default_val" : 3
+			},
+			{
+				"name" : "gamma",
+				"describe" : "{'scale', 'auto'} or float, default='scale'",
+				"type" : "float or str",
+				"default_val" : "scale"
+			},
+			{
+				"name" : "coef0",
+				"describe" : "float, default=0.0",
+				"type" : "float",
+				"default_val" : 0.0
+			},
+			{
+				"name" : "shrinking",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "tol",
+				"describe" : "float, default=0.001",
+				"type" : "float",
+				"default_val" : 0.001
+			},
+			{
+				"name" : "cache_size",
+				"describe" : "float, default=200",
+				"type" : "float",
+				"default_val" : 200
+			},
+			{
+				"name" : "class_weight",
+				"describe" : "{dict, ‘balanced’}, default=None",
+				"type" : "dict or str",
+				"default_val" : "NULL"
+			},
+			{
+				"name" : "verbose",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "max_iter",
+				"describe" : "int, default=-1",
+				"type" : "int",
+				"default_val" : -1
+			},
+			{
+				"name" : "decision_function_shape",
+				"describe" : "{'ovo', 'ovr'}, default='ovr'",
+				"type" : "str",
+				"default_val" : "ovr"
+			},
+			{
+				"name" : "break_ties",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "random_state",
+				"describe" : "int, RandomState instance or None, default=None",
+				"type" : "int",
+				"default_val" : "NULL"
+			}
+		]
+	},
+	{
+		"model" : "NuSVR" ,
+		"parametre" : 
+		[
+			{
+				"name" : "nu",
+				"describe" : "float, default=0.5",
+				"type" : "float",
+				"default_val" : 0.5
+			},
+			{
+				"name" : "C",
+				"describe" : "float, default=1.0",
+				"type" : "float",
+				"default_val" : 1.0
+			},
+			{
+				"name" : "kernel",
+				"describe" : "{'linear', 'poly', 'rbf', 'sigmoid', 'precomputed'} or callable, default='rbf'",
+				"type" : "str or callable",
+				"default_val" : "rbf"
+			},
+			{
+				"name" : "degree",
+				"describe" : "int, default=3",
+				"type" : "int",
+				"default_val" : 3
+			},
+			{
+				"name" : "gamma",
+				"describe" : "{'scale', 'auto'} or float, default='scale'",
+				"type" : "float or str",
+				"default_val" : "scale"
+			},
+			{
+				"name" : "coef0",
+				"describe" : "float, default=0.0",
+				"type" : "float",
+				"default_val" : 0.0
+			},
+			{
+				"name" : "shrinking",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "tol",
+				"describe" : "float, default=0.001",
+				"type" : "float",
+				"default_val" : 0.001
+			},
+			{
+				"name" : "cache_size",
+				"describe" : "float, default=200",
+				"type" : "float",
+				"default_val" : 200
+			},
+			{
+				"name" : "verbose",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "max_iter",
+				"describe" : "int, default=-1",
+				"type" : "int",
+				"default_val" : -1
+			}
+		]
+	},
+	{
+		"model" : "OneClassSVM" ,
+		"parametre" : 
+		[
+			{
+				"name" : "kernel",
+				"describe" : "{'linear', 'poly', 'rbf', 'sigmoid', 'precomputed'} or callable, default='rbf'",
+				"type" : "str or callable",
+				"default_val" : "rbf"
+			},
+			{
+				"name" : "degree",
+				"describe" : "int, default=3",
+				"type" : "int",
+				"default_val" : 3
+			},
+			{
+				"name" : "gamma",
+				"describe" : "{'scale', 'auto'} or float, default='scale'",
+				"type" : "float or str",
+				"default_val" : "scale"
+			},
+			{
+				"name" : "coef0",
+				"describe" : "float, default=0.0",
+				"type" : "float",
+				"default_val" : 0.0
+			},
+			{
+				"name" : "tol",
+				"describe" : "float, default=0.001",
+				"type" : "float",
+				"default_val" : 0.001
+			},
+			{
+				"name" : "nu",
+				"describe" : "float, default=0.5",
+				"type" : "float",
+				"default_val" : 0.5
+			},
+			{
+				"name" : "shrinking",
+				"describe" : "bool, default=True",
+				"type" : "bool",
+				"default_val" : "TRUE"
+			},
+			{
+				"name" : "cache_size",
+				"describe" : "float, default=200",
+				"type" : "float",
+				"default_val" : 200
+			},
+			{
+				"name" : "verbose",
+				"describe" : "bool, default=False",
+				"type" : "bool",
+				"default_val" : "FALSE"
+			},
+			{
+				"name" : "max_iter",
+				"describe" : "int, default=-1",
+				"type" : "int",
+				"default_val" : -1
+			}
+		]
+	},
+	{
+		"model" : "" ,
+		"parametre" : 
+		[
+			{
+				"name" : "",
+				"describe" : "",
+				"type" : "",
+				"default_val" : ""
+			}
+		]
+	}
+]

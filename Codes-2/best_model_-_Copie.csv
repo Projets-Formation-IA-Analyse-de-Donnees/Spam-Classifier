@@ -1,0 +1,15 @@
+model,Best_Parameters,Best_Accuracy
+BernoulliNB(),"{'alpha': 10.0, 'binarize': 0.0, 'class_prior': None, 'fit_prior': True}",0.9704957678355501
+CategoricalNB(),error,0.0
+ComplementNB(),error,0.0
+GaussianNB(),"{'priors': None, 'var_smoothing': 1e-09}",0.9741233373639661
+MultinomialNB(),error,0.0
+SVC(),"{'C': 1.0, 'degree': 1, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': 1000, 'random_state': None}",0.9818621523579203
+LinearSVC(),"{'C': 0.5, 'dual': True, 'loss': 'squared_hinge', 'max_iter': 10, 'multi_class': 'ovr', 'penalty': 'l2', 'random_state': 8}",0.9758162031438935
+NuSVC(),"{'degree': 1, 'gamma': 'auto', 'kernel': 'rbf', 'max_iter': 1000, 'nu': 0.1, 'random_state': None}",0.9717049576783555
+NuSVR(),"{'C': 10.0, 'degree': 1, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': 10000, 'nu': 1.0}",0.8417881180097982
+OneClassSVM(),error,0.0
+SVR(),"{'C': 10.0, 'degree': 1, 'epsilon': 0.01, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': 10000}",0.8435808053114291
+LinearSVR(),"{'C': 0.1, 'dual': 'auto', 'epsilon': 0, 'loss': 'squared_epsilon_insensitive', 'max_iter': 10, 'random_state': None}",0.7966635207136429
+LinearSVR(),"{'C': 0.1, 'dual': 'auto', 'epsilon': 0, 'loss': 'squared_epsilon_insensitive', 'max_iter': 10, 'random_state': None}",0.7966635207136429
+LinearSVR(),"{'C': 0.1, 'dual': 'auto', 'epsilon': 0, 'loss': 'squared_epsilon_insensitive', 'max_iter': 10, 'random_state': None}",0.7966635207136429
